@@ -1,0 +1,132 @@
+@import './reset';
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+  h1 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+nav {
+  background-color: #3b383c;
+  ul {
+    display: flex;
+    padding-left: 1rem;
+    li {
+      padding: 0.5rem 0.75rem;
+      a {
+        color: #999;
+        font-size: 1.25rem;
+        transition: all 0.25s ease;
+      }
+      a:hover{
+        color: #fff;
+      }
+    }
+  }
+}
+main.index{
+  width: 100%;
+  display: flex;
+}
+section.left,section.right{
+  padding: 1.5rem;
+  h4{
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}
+section.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    margin: 1rem 0rem;
+  }
+}
+.active{
+  color: #fff;
+}
+
+/*農業改革*/
+.farming{
+  padding: 2rem;
+  h2{
+    font-weight: 800;
+    border-bottom: 1px  solid #000;
+  }
+  h5{
+    text-align: center;
+    color: red;
+    font-size: 1.25rem;
+  }
+  ol{
+    margin-bottom: 2rem;
+  }
+  p{
+    margin-bottom: 3rem ;
+  }
+}
+/*工業改革*/
+.industry{
+  padding: 2rem;
+  h2{
+    font-weight: 800;
+    border-bottom: 1px  solid #000;
+  }
+  p{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  section.ind{
+    display: flex;
+    padding: 1rem;
+    div{
+     padding: 1rem;
+    }
+  }
+}
+/*經濟發展*/
+.economy{
+  padding: 2rem;
+  h2{
+    font-weight: 800;
+    border-bottom: 1px  solid #000;
+    margin-bottom: 2rem;
+  }
+  .img{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  p{
+    margin-bottom: 5rem;
+  }
+  h3{
+    font-weight: 800;
+  }
+  ul{
+    margin-top: 1rem;
+    list-style: disc;
+    li{
+      padding: 0.5rem;
+      a{
+        color: rgb(8, 21, 94);
+        font-weight: 600;
+      }
+    }
+  }
+}

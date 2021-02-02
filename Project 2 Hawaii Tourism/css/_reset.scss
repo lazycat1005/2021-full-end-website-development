@@ -1,0 +1,24 @@
+//所有間距為0
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+//錨點平滑效果
+html {
+  scroll-behavior: smooth;
+}
+//超連結底線去除
+a {
+  text-decoration: none;
+}
+//List符號去除
+ol,
+ul {
+  list-style: none;
+}
+//表格合併
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

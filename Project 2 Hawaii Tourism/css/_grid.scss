@@ -1,0 +1,18 @@
+/******* RWD斷點 *******/
+@mixin pc {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin pad {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 450px) {
+    @content;
+  }
+}

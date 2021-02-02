@@ -1,0 +1,23 @@
+/* ******flex box****** */
+@mixin flexbox($direction, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+/*******設定背景圖片*******/
+@mixin divpic($pic) {
+  background-image: url($pic);
+  background-size: cover;
+  background-position: center;
+}
+
+/*******寫死高度不擠壓圖片的方式*******/
+@mixin img($w, $h) {
+  width: $w;
+  height: $h;
+  object-fit: cover;
+}

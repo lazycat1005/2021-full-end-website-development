@@ -1,0 +1,128 @@
+@import './reset';
+
+i {
+  pointer-events: none;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(84, 130, 255), rgb(100, 255, 134));
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input,
+  button {
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.75rem;
+    margin: 0.1rem;
+  }
+  input[type='number'] {
+    width: 50px;
+    text-align: center;
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  button {
+    cursor: pointer;
+    background-color: rgb(42, 180, 180);
+    color: #fff;
+    border-radius: 0.5rem;
+  }
+}
+div.sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+  button {
+    cursor: pointer;
+    background-color: rgb(34, 95, 131);
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.75rem;
+  }
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div.todo {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    margin: 0.2rem 0rem;
+    transition: all 0.1s ease;
+  }
+  p {
+    background-color: #fff;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.75rem;
+  }
+  p.todo-text {
+    width: 50%;
+  }
+  p.todo-time {
+    width: 20%;
+    text-align: center;
+  }
+  button {
+    padding: 0.25rem 0.5rem;
+    font-size: 1.75rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+  }
+  button.complete {
+    background-color: rgb(24, 223, 24);
+  }
+  button.trash {
+    background-color: red;
+  }
+}
+
+.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+  text-decoration-thickness: 0.2rem;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleDown {
+  to {
+    transform: scale(0);
+  }
+}

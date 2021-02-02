@@ -1,0 +1,204 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header h3 {
+  font-size: 1rem;
+}
+
+nav {
+  background-color: #3b383c;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1rem;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+nav ul li a {
+  color: #999;
+  font-size: 1.25rem;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+main.index {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.left, section.right {
+  padding: 1.5rem;
+}
+
+section.left h4, section.right h4 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+section.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.right p {
+  margin: 1rem 0rem;
+}
+
+.active {
+  color: #fff;
+}
+
+/*農業改革*/
+.farming {
+  padding: 2rem;
+}
+
+.farming h2 {
+  font-weight: 800;
+  border-bottom: 1px  solid #000;
+}
+
+.farming h5 {
+  text-align: center;
+  color: red;
+  font-size: 1.25rem;
+}
+
+.farming ol {
+  margin-bottom: 2rem;
+}
+
+.farming p {
+  margin-bottom: 3rem;
+}
+
+/*工業改革*/
+.industry {
+  padding: 2rem;
+}
+
+.industry h2 {
+  font-weight: 800;
+  border-bottom: 1px  solid #000;
+}
+
+.industry p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.industry section.ind {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.industry section.ind div {
+  padding: 1rem;
+}
+
+/*經濟發展*/
+.economy {
+  padding: 2rem;
+}
+
+.economy h2 {
+  font-weight: 800;
+  border-bottom: 1px  solid #000;
+  margin-bottom: 2rem;
+}
+
+.economy .img {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.economy p {
+  margin-bottom: 5rem;
+}
+
+.economy h3 {
+  font-weight: 800;
+}
+
+.economy ul {
+  margin-top: 1rem;
+  list-style: disc;
+}
+
+.economy ul li {
+  padding: 0.5rem;
+}
+
+.economy ul li a {
+  color: #08155e;
+  font-weight: 600;
+}
+/*# sourceMappingURL=all.css.map */
